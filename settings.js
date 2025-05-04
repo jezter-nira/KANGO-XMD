@@ -1,7 +1,7 @@
 /*
   project_name : 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 Bot
   Version : 2.4.0
-  Owner : Hector Manuel
+  Owner : JEZTER
   Do Not Clone 
 
 
@@ -16,7 +16,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~N1gBxQhR#kjm2N3Ie2eQSEqnFfn2oaasjPQ3idRM8WqB6G4yuYiQ' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -25,11 +25,11 @@ global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '94728591962' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'JEZTER-MD' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -46,7 +46,7 @@ global.timezones = process.env.TIMEZONE || "Africa/Accra"
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
-global.dbToken = process.env.GITHUB_TOKEN || "";
+global.dbToken = process.env.GITHUB_TOKEN || "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";
 // Not really necessary on panels/vps/termux, just put it when bot settings reset when bot restarts.
 
 //Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.
@@ -65,10 +65,10 @@ global.wm = process.env.GL_WM || "> ©𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿"
 global.mess = { 
   done: '*Done*', 
   success: '> © 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿', 
-  owner: `*You don't have permission to use this command!*`, 
-  group: '*This feature becomes available when you use it in a group!*', 
-  admin: '*You’ll unlock this feature with me as an admin!*', 
-  notadmin: '*This feature will work once you become an admin. A way of ensuring order!*' 
+  owner: `*You don't have permission to use this command!.`, 
+  group: '*This feature becomes available when you use it in a group!.', 
+  admin: '*You’ll unlock this feature with me as an admin!.', 
+  notadmin: '*This feature will work once you become an admin. A way of ensuring order!.' 
 }
 
 //--------------[ DEVELOPER SETTINGS ]---------------//
